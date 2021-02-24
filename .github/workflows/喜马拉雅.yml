@@ -24,5 +24,7 @@ jobs:
         run: python3 xmly_speed.py 
         env:
             XMLY_SPEED_COOKIE: ${{ secrets.XMLY_SPEED_COOKIE }}
+            TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+            TG_USER_ID: ${{ secrets.TG_USER_ID }}
 
     
